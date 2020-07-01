@@ -4,11 +4,11 @@ from PIL import Image
 
 path = './../../resource/ColonImage'
 folders = os.listdir(path)  #各フォルダをリストで保持
-slidePx = 128 #スライドするピクセル数 既存手法　8px
+slidePx = 8 #スライドするピクセル数 既存手法　8px
 windowSize = 128 #切り出しサイズ 既存手法128*128
-dest = './../../resource/trimImage' #保存先
+dest = './../../resource/trimImage2' #保存先
 
-if 'trimImage' not in os.listdir('./../../resource'):
+if 'trimImage2' not in os.listdir('./../../resource'):
     os.mkdir(dest)
 
 for fl in folders:

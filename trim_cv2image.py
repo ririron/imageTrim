@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 path = './../../resource/manualTrim'  #input("input path:")
-target = 'CNV2000001168362_1_8_trimV.jpg'  #input("targetIMG:")
+target = input("targetIMG:") #'CNV2000002057140_1_13_trimV.jpg' 
 print("cutintg [" + target + "]")
 name = input("input cutting image name:")
 img = cv2.imread(path + '/' + target)
